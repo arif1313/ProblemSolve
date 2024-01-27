@@ -16,10 +16,10 @@ for i in range(0, times, 1):
         Sapos = Sapos+animalInt
         total_animal = total_animal+animalInt
 
-print(f"Total: {total_animal} cobaias");
+print(f"Total: {total_animal} cobaias")
 print(f"Total de coelhos: {rabbits}")
-print(f"Total de ratos: {rats}");
-print(f"Total de sapos: {Sapos}");
+print(f"Total de ratos: {rats}")
+print(f"Total de sapos: {Sapos}")
 print(f"Percentual de coelhos: {rabbits/total_animal*100:.2f} %")
 print(f"Percentual de ratos: {rats/total_animal*100:.2f} %")
 print(f"Percentual de sapos: {Sapos/total_animal*100:.2f} %")
