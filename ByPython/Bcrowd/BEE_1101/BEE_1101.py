@@ -1,6 +1,6 @@
 while True:
-    x, y=map(int, input().split())
-    if x<=0 or y<=0:
+    x, y = map(int, input().split())
+    if x <= 0 or y <= 0:
         break
 
     total = 0
@@ -11,5 +11,4 @@ while True:
     # if reminder==2 or reminder ==3:
         print(item, end=" ")
 
-    print(f"Sum={total}")  
-    
+    print(f"Sum={total}")
